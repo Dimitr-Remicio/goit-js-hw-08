@@ -22,8 +22,8 @@ html{
 ul{
   padding: 0%;
 }
-a{
-  gap: 10px;
+i{
+  padding-right: 10px;
 }
 body {
 
@@ -86,7 +86,7 @@ img {
 }
 
 
+iframe{
+  border-radius: 1em;
 
-
-/* formulary  */
-
+}
