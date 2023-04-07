@@ -1,0 +1,55 @@
+.feedback-form {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  padding: 12px;
+  background-color: var(--backgorund-color);
+  border-radius: 4px;
+}
+
+.feedback-form label {
+  gap: 10px;
+
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.feedback-form button {
+  color: var(--button-text);
+  font: inherit;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  background-color: var(--backgorund-color);
+  font: inherit;
+  border-radius: 0.5em;
+  height: auto;
+  padding: 5px;
+  color: var(--button-text);
+}
+
+textarea {
+  resize: none;
+}
+
+
+input{
+  border: 1px solid var(--background-color);
+}
+
+button {
+  cursor: pointer;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 0.6em;
+  height: auto;
+  padding: 8px;
+  border: 1px solid var(--accent-color);
+  background-color: var(--button-color);
+  box-shadow: 0px 0px 19px 0px var(--box-shadow);
+}
